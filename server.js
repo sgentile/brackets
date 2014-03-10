@@ -30,7 +30,7 @@ fs.readdirSync(modelsPath).forEach(function (file) {
 //require('./lib/config/dummydata');
   
 // Passport Configuration
-//var passport = require('./lib/config/passport');
+var passport = require('./lib/config/passport');
 
 var app = express();
 
