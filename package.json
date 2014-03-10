@@ -2,7 +2,7 @@
   "name": "brackets",
   "version": "0.0.0",
   "description": "Brackets",
-  "author" : "Steve Gentile",
+  "author": "Steve Gentile",
   "dependencies": {
     "express": "~3.4.3",
     "lodash": "~2.4.1",
@@ -29,7 +29,7 @@
     "grunt-contrib-uglify": "~0.2.0",
     "grunt-contrib-watch": "~0.5.2",
     "grunt-google-cdn": "~0.2.0",
-    "grunt-newer": "~0.5.4",
+    "grunt-newer": "~0.6.1",
     "grunt-ngmin": "~0.0.2",
     "grunt-rev": "~0.1.0",
     "grunt-svgmin": "~0.2.0",
@@ -63,7 +63,7 @@
   },
   "engines": {
     "node": "0.10.x",
-    "npm" : "1.3.x"
+    "npm": "1.3.x"
   },
   "scripts": {
     "test": "grunt test"

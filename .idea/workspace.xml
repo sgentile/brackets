@@ -44,19 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gruntfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="311" column="21" selection-start="7796" selection-end="7796" vertical-scroll-proportion="-9.307693" vertical-offset="4423" max-vertical-offset="7830">
+            <state line="361" column="15" selection-start="8873" selection-end="8873" vertical-scroll-proportion="0.386921" vertical-offset="5273" max-vertical-offset="7830">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="19" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.52879584" vertical-offset="758" max-vertical-offset="1140">
+            <state line="64" column="19" selection-start="1974" selection-end="1974" vertical-scroll-proportion="-8.416667" vertical-offset="758" max-vertical-offset="1155">
               <folding />
             </state>
           </provider>
@@ -102,9 +102,9 @@
         <option value="$PROJECT_DIR$/lib/config/env/development.js" />
         <option value="$PROJECT_DIR$/lib/config/express.js" />
         <option value="$PROJECT_DIR$/app/views/index.html" />
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
       </list>
     </option>
   </component>
@@ -201,6 +201,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brackets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brackets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -544,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="311" column="21" selection-start="7796" selection-end="7796" vertical-scroll-proportion="-9.307693" vertical-offset="4423" max-vertical-offset="7830">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -563,7 +578,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="19" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.52879584" vertical-offset="758" max-vertical-offset="1140">
+        <state line="64" column="19" selection-start="1974" selection-end="1974" vertical-scroll-proportion="-8.416667" vertical-offset="758" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="361" column="15" selection-start="8873" selection-end="8873" vertical-scroll-proportion="0.386921" vertical-offset="5273" max-vertical-offset="7830">
           <folding />
         </state>
       </provider>
