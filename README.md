@@ -25,6 +25,7 @@ heroku config
 
 see Evernote for heroku mongolab settings... set this so it's not stored in your app!
 heroku config:add MONGOLAB_URI=mongodb://<user>:<password>@ds033639.mongolab.com:33639/brackets
+heroku config:add MONGOHQ_URL=mongodb://<user>:<password>@troup.mongohq.com:10067/Brackets
 
 heroku open
 
