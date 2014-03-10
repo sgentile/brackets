@@ -1,0 +1,15 @@
+<div ng-include="'partials/navbar.html'"></div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <a class="btn" ng-href="/all">View All</a>
+    </div>
+</div>
+<div class="row">
+    <h3>{{bracket.name}}</h3>
+    <bracket-Dir data="bracket"></bracket-Dir>
+    <div class="demo"></div>
+</div>
+
+<button ng-click="saveChanges()">Save</button>
+

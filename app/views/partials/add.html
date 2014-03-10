@@ -1,0 +1,22 @@
+<div ng-include="'partials/navbar.html'"></div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <a class="btn" ng-href="/all">View All</a>
+    </div>
+</div>
+<div class="row">
+    <h3>Add a Bracket</h3>
+    <div id="messages" class="alert alert-danger" data-ng-show="errormessages" data-ng-bind="errormessages"></div>
+    <div id="messages" class="alert alert-success" data-ng-show="messages" data-ng-bind="messages"></div>
+    <!--<div data-ng-show="progress.active()" style="color: red; font-size: 50px;">Sending&hellip;</div>-->
+
+    <form name="addBracketFrm" novalidate role="form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <span class="label label-danger" data-ng-show="submitted && addBracketFrm.name.$error.required">Required!</span>
+            <input type="text" name="name" data-ng-model="name" class="form-control" required />
+        </div>
+        <button data-ng-click="submit(addBracketFrm)" class="btn btn-default">Add</button>
+    </form>
+</div>
