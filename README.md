@@ -19,7 +19,16 @@ heroku keys:add
 //heroku will allocate resources to the application:
 heroku ps:scale web=1
 
+heroku config:set NODE_ENV=production
+
+heroku config
+
+see Evernote for heroku mongolab settings... set this so it's not stored in your app!
+heroku config:add MONGOLAB_URI=mongodb://<user>:<password>@ds033639.mongolab.com:33639/brackets
+
 heroku open
+
+
 
 //troubleshooting:
 heroku logs
