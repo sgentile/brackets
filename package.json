@@ -1,6 +1,8 @@
 {
   "name": "brackets",
   "version": "0.0.0",
+  "description": "Brackets",
+  "author" : "Steve Gentile",
   "dependencies": {
     "express": "~3.4.3",
     "lodash": "~2.4.1",
