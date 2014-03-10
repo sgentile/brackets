@@ -17,7 +17,7 @@ git commit -a -m "update"
 git push heroku master
 
 heroku login
-heroku create  OR  heroku git:remote -a morning-everglades-5893
+heroku create  OR  heroku git:remote -a herokuappnamegoeshere
 Git remote heroku added
 
 
@@ -40,9 +40,8 @@ heroku config:set NODE_ENV=production
 
 heroku config
 
-see Evernote for heroku mongolab settings... set this so it's not stored in your app!
-heroku config:add MONGOLAB_URI=mongodb://<user>:<password>@ds033639.mongolab.com:33639/brackets
-heroku config:add MONGOHQ_URL=mongodb://<user>:<password>@troup.mongohq.com:10067/Brackets
+heroku config:add MONGOLAB_URI=mongodb://.../brackets
+heroku config:add MONGOHQ_URL=mongodb://.../Brackets
 
 heroku open
 
