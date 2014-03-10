@@ -1,3 +1,14 @@
+workflow:
+make fixes locally
+commit
+
+run grunt build
+cd dist
+(git add -A)
+commit local
+push to heroku
+run heroku open to view
+
 to deploy :
 
 grunt build
