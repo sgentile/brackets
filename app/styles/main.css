@@ -23,6 +23,10 @@ div.jQBracket .team:first-child {
     border-bottom: 1px solid rgba(83, 85, 27, 0.42);
 }
 
+div.jQBracket .team div.score{
+    width: 35px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
