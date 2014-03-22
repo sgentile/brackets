@@ -32,10 +32,12 @@ angular.module('bracketsApp', [
       .when('/view/:id', {
         templateUrl: 'partials/view',
         controller: 'ViewCtrl'
+        //,authenticate: true
       })
       .when('/add', {
         templateUrl: 'partials/add',
-        controller: 'AddCtrl'
+        controller: 'AddCtrl',
+        authenticate: true
       })
       .otherwise({
         redirectTo: '/'

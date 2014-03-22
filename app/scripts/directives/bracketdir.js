@@ -28,20 +28,28 @@ angular.module('bracketsApp')
         return {
             template: '<div></div>',
             restrict: 'E',
-            scope: { data: "=" },
+            scope: {
+                data: "="
+            },
             link: function postLink(scope, element, attrs) {
                 //element.text('this is the bracketDir directive');
                 scope.$watch('data', function(newValue, oldValue) {
                     if (newValue){
                         var brackets = JSON.parse(newValue.bracket);
 
-                        element.bracket({
-                            init: brackets,
-                            save: function saveFn(updatedData) {
-                                scope.$emit('notification', updatedData);
-                                //need to store data for saving
-                            }
-                        });
+                        if(newValue.currentUser && (newValue.createdBy === newValue.currentUser.email)){
+                            element.bracket({
+                                init: brackets,
+                                save: function saveFn(updatedData) {
+                                    scope.$emit('notification', updatedData);
+    //                                scope.data = updatedData;
+    //                                scope.$apply();
+                                    //need to store data for saving
+                                }
+                            });
+                        }else{
+                            element.bracket({ init: brackets });
+                        }
                     }
                 }, true);
             }
