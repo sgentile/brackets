@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "dummydata.js",
+  "sourceRoot": "",
+  "sources": [
+    "dummydata.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,YAAA,CAAA;AAAA,MAAA,uBAAA;;AAAA,EAEA,QAAA,GAAW,OAAA,CAAQ,UAAR,CAFX,CAAA;;AAAA,EAGA,IAAA,GAAO,QAAQ,CAAC,KAAT,CAAe,MAAf,CAHP,CAAA;;AAAA,EAIA,OAAA,GAAU,QAAQ,CAAC,KAAT,CAAe,SAAf,CAJV,CAAA;AAAA"
+}
