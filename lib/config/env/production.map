@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "production.js",
+  "sourceRoot": "",
+  "sources": [
+    "production.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,YAAA,CAAA;AAAA,EAEA,MAAM,CAAC,OAAP,GACE;AAAA,IAAA,GAAA,EAAK,YAAL;AAAA,IACA,KAAA,EACI;AAAA,MAAA,GAAA,EAAK,OAAO,CAAC,GAAG,CAAC,WAAjB;KAFJ;GAHF,CAAA;AAAA"
+}

@@ -13,7 +13,6 @@ middleware = require('./middleware')
 # */
 module.exports = (app) ->
 #// Server API Routes
-  app.get('/api/awesomeThings', api.awesomeThings)
   app.get('/api/getAllBrackets', api.getAllBrackets)
   app.get('/api/getBracketById/:id', api.getBracketById)
   app.post('/api/addBracket', api.addBracket)
