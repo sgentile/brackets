@@ -7,7 +7,7 @@ angular.module("bracketsApp").controller "SettingsCtrl", ($scope, User, Auth) ->
       Auth.changePassword($scope.user.oldPassword, $scope.user.newPassword).then(->
         $scope.message = "Password successfully changed."
         return
-      ).fail ->
+      ).catch ->
         form.password.$setValidity "mongoose", false
         $scope.errors.other = "Incorrect password"
         return

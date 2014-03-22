@@ -13,7 +13,7 @@
           password: $scope.user.password
         }).then(function() {
           $location.path('/');
-        }).fail(err)(function() {
+        })["catch"](err)(function() {
           var err;
           err = err.data;
           $scope.errors = {};

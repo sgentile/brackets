@@ -15,7 +15,7 @@ angular.module('bracketsApp').controller 'SignupCtrl', ($scope, Auth, $location)
       ).then(->
         $location.path('/')
         return
-      ).fail(err) ->
+      ).catch(err) ->
         err = err.data
         $scope.errors = {}
         # Update validity of form fields that match the mongoose errors
