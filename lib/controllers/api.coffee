@@ -39,19 +39,19 @@ exports.updateBracket = (req, res) ->
   Bracket.findById req.body.id, (err, bracket) ->
     unless err
       bracket.bracket = req.body.bracket
-      bracket.save
+      bracket.save()
       res.json bracket
     else
       res.send err
 
-exports.deleteBracket = (req, res) ->
+  return
 
-#exports.deleteBracket = function(req, res){
-#//    return Bracket.findById(req.params.id, function (err, bracket) {
-#//        if (!err) {
-#//            return res.json(bracket);
-#//        } else {
-#//            return res.send(err);
-#//        }
-#//    });
-#};
+exports.deleteBracket = (req, res) ->
+  Bracket.findByIdAndRemove req.body.id, (err) ->
+    unless err
+      res.json req.body.id
+    else
+      res.send err
+
+  return
+

@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 
 angular.module('bracketsApp').controller 'SignupCtrl', ($scope, Auth, $location) ->
   $scope.user = {}
@@ -13,7 +13,7 @@ angular.module('bracketsApp').controller 'SignupCtrl', ($scope, Auth, $location)
         email: $scope.user.email
         password: $scope.user.password
       ).then(->
-        $location.path('/')
+        $location.path '/'
         return
       ).catch(err) ->
         err = err.data
@@ -27,3 +27,4 @@ angular.module('bracketsApp').controller 'SignupCtrl', ($scope, Auth, $location)
         return
       return
     return
+  return

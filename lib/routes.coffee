@@ -20,8 +20,8 @@ module.exports = (app) ->
   app.del('/api/deleteBracket/:id', api.deleteBracket)
 
   app.post('/api/users', users.create)
-  app.put('/api/users', users.changePassword)
-  app.get('/api/users/me', users.me)
+#  app.put('/api/users', users.changePassword)
+#  app.get('/api/users/me', users.me)
   app.get('/api/users/:id', users.show)
 
   app.post('/api/session', session.login)

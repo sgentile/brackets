@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 
 ###
 Removes server error when user updates input

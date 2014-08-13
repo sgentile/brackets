@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 
 angular.module('bracketsApp').controller 'NavbarCtrl', ($scope, $location, Auth) ->
   $scope.menu = [

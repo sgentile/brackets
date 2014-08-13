@@ -17,7 +17,7 @@ git commit -a -m "update"
 git push heroku master
 
 heroku login
-heroku create  OR  heroku git:remote -a herokuappnamegoeshere
+heroku create  OR  heroku git:remote -a morning-everglades-5893
 Git remote heroku added
 
 

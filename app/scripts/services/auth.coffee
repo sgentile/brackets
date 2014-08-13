@@ -1,9 +1,9 @@
-"use strict"
-angular.module("bracketsApp").factory "Auth", Auth = ($location, $rootScope, Session, User, $cookieStore) ->
+'use strict'
+angular.module('bracketsApp').factory 'Auth', Auth = ($location, $rootScope, Session, User, $cookieStore) ->
 
   # Get currentUser from cookie
-  $rootScope.currentUser = $cookieStore.get("user") or null
-  $cookieStore.remove "user"
+  $rootScope.currentUser = $cookieStore.get('user') or null
+  $cookieStore.remove 'user'
 
   ###
   Authenticate user

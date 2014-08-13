@@ -1,5 +1,5 @@
-"use strict"
+'use strict'
 
-angular.module('bracketsApp').factory "Session", ($resource) ->
+angular.module('bracketsApp').factory 'Session', ($resource) ->
   $resource('/api/session/')
 

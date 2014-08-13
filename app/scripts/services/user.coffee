@@ -1,14 +1,14 @@
-"use strict"
-angular.module("bracketsApp").factory "User", ($resource) ->
-  $resource "/api/users/:id",
-    id: "@id"
+'use strict'
+angular.module('bracketsApp').factory 'User', ($resource) ->
+  $resource '/api/users/:id',
+    id: '@id'
   ,
     update:
-      method: "PUT"
+      method: 'PUT'
       params: {}
 
     get:
-      method: "GET"
+      method: 'GET'
       params:
-        id: "me"
+        id: 'me'
 

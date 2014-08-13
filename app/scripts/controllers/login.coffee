@@ -1,4 +1,4 @@
-"use strict"
+'use strict'
 
 angular.module('bracketsApp').controller 'LoginCtrl', ($scope, Auth, $location) ->
   $scope.user = {}

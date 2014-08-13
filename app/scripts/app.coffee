@@ -1,10 +1,10 @@
-"use strict"
+'use strict'
 
 angular.module('bracketsApp', [
-  "ngCookies"
-  "ngResource"
-  "ngSanitize"
-  "ngRoute"
+  'ngCookies'
+  'ngResource'
+  'ngSanitize'
+  'ngRoute'
 ]).config(($routeProvider, $locationProvider, $httpProvider) ->
   $routeProvider.when('/',
     templateUrl: 'partials/main'
@@ -34,8 +34,8 @@ angular.module('bracketsApp', [
   $locationProvider.html5Mode true
   #intercept 401s and redirect to login
   $httpProvider.interceptors.push [
-    "$q"
-    "$location"
+    '$q'
+    '$location'
     ($q, $location) ->
       return responseError: (response) ->
         if response.status is 401
@@ -47,7 +47,7 @@ angular.module('bracketsApp', [
   return
 ).run ($rootScope, $location, Auth) ->
   $rootScope.$on '$routeChangeStart', (event, next) ->
-    $location.path "/login" if next.authenticate and not Auth.isLoggedIn()
+    $location.path '/login' if next.authenticate and not Auth.isLoggedIn()
     return
   return
 
